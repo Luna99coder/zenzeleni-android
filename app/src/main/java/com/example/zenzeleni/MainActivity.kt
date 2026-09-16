@@ -8,9 +8,12 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.FirebaseFirestore
 
+// The app's Home/Dashboard screen, shown after a successful login.
+// Fetches and displays a live list of challenges from Cloud Firestore.
 class MainActivity : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
+    private val tag = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +26,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, SettingsActivity::class.java))
         }
 
+        loadChallenges(challengesListText)
+    }
+
+    // Fetches all documents in the "challenges" collection from Firestore
+    // and displays them as a simple list of title + point reward.
+    private fun loadChallenges(challengesListText: TextView) {
+        Log.d(tag, "Fetching challenges from Firestore")
+
         db.collection("challenges")
             .get()
             .addOnSuccessListener { result ->
@@ -31,12 +42,13 @@ class MainActivity : AppCompatActivity() {
                     val title = document.getString("title") ?: "Untitled"
                     val points = document.getLong("pointReward") ?: 0
                     builder.append("• $title — $points points\n\n")
-                    Log.d("Zenzeleni", "${document.id} => ${document.data}")
+                    Log.d(tag, "Loaded challenge: ${document.id} => ${document.data}")
                 }
                 challengesListText.text = builder.toString()
+                Log.d(tag, "Successfully loaded ${result.size()} challenges")
             }
             .addOnFailureListener { exception ->
-                Log.e("Zenzeleni", "Error fetching challenges", exception)
+                Log.e(tag, "Error fetching challenges", exception)
                 challengesListText.text = "Failed to load challenges"
             }
     }
