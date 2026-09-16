@@ -2,51 +2,69 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="24dp">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/welcomeText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Zenzeleni"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="60dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/openSettingsButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        app:layout_constraintTop_toBottomOf="@id/welcomeText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
 
-    <TextView
-        android:id="@+id/challengesLabel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Available Challenges"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/openSettingsButton"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="32dp" />
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Zenzeleni"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="36dp" />
 
-    <TextView
-        android:id="@+id/challengesListText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/challengesLabel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="16dp" />
+            <Button
+                android:id="@+id/openSettingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/challengesLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Available Challenges"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp" />
+
+            <TextView
+                android:id="@+id/challengesListText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/postsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rand Exchange Rates"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="32dp" />
+
+            <TextView
+                android:id="@+id/postsListText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
