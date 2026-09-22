@@ -29,7 +29,7 @@ The original Planning & Design Document specified a custom PHP REST API with a M
 
 ## Demo Video
 
-[Video link to be added]
+https://youtube.com/shorts/Rm8R4KqmbMU?feature=share
 
 ## AI Use Disclosure
 
