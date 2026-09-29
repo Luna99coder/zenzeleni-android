@@ -18,7 +18,7 @@
                 android:id="@+id/welcomeText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Welcome to Zenzeleni"
+                android:text="@string/home_welcome"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_marginTop="36dp" />
@@ -27,14 +27,14 @@
                 android:id="@+id/openSettingsButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Settings"
+                android:text="@string/home_settings_button"
                 android:layout_marginTop="16dp" />
 
             <TextView
                 android:id="@+id/challengesLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Available Challenges"
+                android:text="@string/home_challenges_label"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="32dp" />
@@ -50,7 +50,7 @@
                 android:id="@+id/postsLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rand Exchange Rates"
+                android:text="@string/home_rates_label"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="32dp" />

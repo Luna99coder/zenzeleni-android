@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Zenzeleni</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_email_hint">Email Address</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="login_go_to_register">Don\'t have an account? Sign Up</string>
+
+    <!-- Register screen -->
+    <string name="register_title">Create Account</string>
+    <string name="register_name_hint">Full Name</string>
+    <string name="register_email_hint">Email Address</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_button">Create Account</string>
+    <string name="register_go_to_login">Already have an account? Log In</string>
+
+    <!-- Home screen -->
+    <string name="home_welcome">Welcome to Zenzeleni</string>
+    <string name="home_settings_button">Settings</string>
+    <string name="home_challenges_label">Available Challenges</string>
+    <string name="home_rates_label">Rand Exchange Rates</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_new_password_hint">New Password</string>
+    <string name="settings_change_password_button">Change Password</string>
+    <string name="settings_logout_button">Log Out</string>
 </resources>

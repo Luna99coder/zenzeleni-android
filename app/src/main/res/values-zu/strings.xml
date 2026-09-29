@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zenzeleni</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Siyakwamukela Futhi</string>
+    <string name="login_email_hint">Ikheli le-imeyili</string>
+    <string name="login_password_hint">Iphasiwedi</string>
+    <string name="login_button">Ngena</string>
+    <string name="login_go_to_register">Awunayo i-akhawunti? Bhalisa</string>
+
+    <!-- Register screen -->
+    <string name="register_title">Dala I-akhawunti</string>
+    <string name="register_name_hint">Igama Eliphelele</string>
+    <string name="register_email_hint">Ikheli le-imeyili</string>
+    <string name="register_password_hint">Iphasiwedi</string>
+    <string name="register_button">Dala I-akhawunti</string>
+    <string name="register_go_to_login">Sunale-akhawunti? Ngena</string>
+
+    <!-- Home screen -->
+    <string name="home_welcome">Siyakwamukela ku-Zenzeleni</string>
+    <string name="home_settings_button">Izilungiselelo</string>
+    <string name="home_challenges_label">Izinselelo Ezitholakalayo</string>
+    <string name="home_rates_label">Amanani Okushintshanisa Imali</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_new_password_hint">Iphasiwedi Entsha</string>
+    <string name="settings_change_password_button">Shintsha Iphasiwedi</string>
+    <string name="settings_logout_button">Phuma</string>
+</resources>
