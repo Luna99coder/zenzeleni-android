@@ -49,4 +49,7 @@ dependencies {
     // Retrofit: used to connect to an external RESTful API
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Google Sign-In (SSO)
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
 }
