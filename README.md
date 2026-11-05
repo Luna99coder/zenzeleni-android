@@ -64,8 +64,8 @@ Unit tests in `app/src/test` cover email and password validation and the points 
 
 ## Demo video
 
-- Main demo (register, login, rewards, settings, language, Firebase data): VIDEO LINK TO BE ADDED
-- Google Sign-In (SSO): VIDEO LINK TO BE ADDED
+- Main demo https:https://youtube.com/shorts/o-3c7teQ6Rw?feature=share
+- Google Sign-In https://youtube.com/shorts/JdyMk0_EtUE?feature=share
 
 ## Screenshots
 
