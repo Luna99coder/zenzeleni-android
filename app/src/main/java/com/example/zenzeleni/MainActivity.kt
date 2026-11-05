@@ -17,6 +17,7 @@ import retrofit2.Response
 //   1. Cloud Firestore (via the Firebase SDK) — the app's own database
 //   2. A RESTful API (via Retrofit) — an external live currency exchange rate service,
 //      giving users a sense of what their rewards/points might be worth in Rands
+// It also links to the Rewards and Settings screens.
 class MainActivity : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
@@ -26,11 +27,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val openRewardsButton = findViewById<Button>(R.id.openRewardsButton)
         val openSettingsButton = findViewById<Button>(R.id.openSettingsButton)
         val challengesListText = findViewById<TextView>(R.id.challengesListText)
         val postsListText = findViewById<TextView>(R.id.postsListText)
 
+        openRewardsButton.setOnClickListener {
+            Log.d(tag, "Opening Rewards screen")
+            startActivity(Intent(this, RewardsActivity::class.java))
+        }
+
         openSettingsButton.setOnClickListener {
+            Log.d(tag, "Opening Settings screen")
             startActivity(Intent(this, SettingsActivity::class.java))
         }
 

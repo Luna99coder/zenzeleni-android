@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rw_open_button">Rewards</string>
+    <string name="rw_title">Rewards</string>
+    <string name="rw_balance">Points balance: %1$d</string>
+    <string name="rw_cost">%1$d points</string>
+    <string name="rw_redeem_button">Redeem</string>
+    <string name="rw_redeemed">Redeemed: %1$s</string>
+    <string name="rw_not_enough">Not enough points</string>
+    <string name="rw_load_failed">Failed to load rewards</string>
+    <string name="rw_none">No rewards available</string>
+    <string name="rw_redeem_failed">Could not redeem. Try again.</string>
+</resources>
