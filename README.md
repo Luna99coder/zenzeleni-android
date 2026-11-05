@@ -60,7 +60,13 @@ Unit tests in `app/src/test` cover email and password validation and the points 
 
 ## Screenshots
 
-[ADD 3-4 SCREENSHOTS HERE: login, home, rewards, settings in isiZulu]
+<img width="1256" height="2760" alt="image" src="https://github.com/user-attachments/assets/33c45e2c-d9d6-4df6-aa36-71bc56fd5e38" />
+<img width="582" height="1280" alt="image" src="https://github.com/user-attachments/assets/a188e571-f5e3-4df4-942c-794015efc6cf" />
+<img width="582" height="1280" alt="image" src="https://github.com/user-attachments/assets/57edf658-84bd-41cf-9e1c-9fb2e71a81c3" />
+<img width="582" height="1280" alt="image" src="https://github.com/user-attachments/assets/1bce0968-4232-4858-b52a-614347fba102" />
+<img width="582" height="1280" alt="image" src="https://github.com/user-attachments/assets/9c620696-68a3-4f4b-85d5-f6a0675b7015" />
+<img width="758" height="662" alt="image" src="https://github.com/user-attachments/assets/afbdb9bb-c324-41a1-be1c-942adfdc655b" />
+
 
 ## How to run
 
