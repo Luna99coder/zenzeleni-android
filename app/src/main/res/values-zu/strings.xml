@@ -28,4 +28,16 @@
     <string name="settings_new_password_hint">Iphasiwedi Entsha</string>
     <string name="settings_change_password_button">Shintsha Iphasiwedi</string>
     <string name="settings_logout_button">Phuma</string>
+
+    <!-- Rewards screen -->
+    <string name="rw_open_button">Imivuzo</string>
+    <string name="rw_title">Imivuzo</string>
+    <string name="rw_balance">Amaphuzu akho: %1$d</string>
+    <string name="rw_cost">%1$d amaphuzu</string>
+    <string name="rw_redeem_button">Shintshanisa</string>
+    <string name="rw_redeemed">Kushintshanisiwe: %1$s</string>
+    <string name="rw_not_enough">Awanamaphuzu anele</string>
+    <string name="rw_load_failed">Yehlulekile ukulayisha imivuzo</string>
+    <string name="rw_none">Ayikho imivuzo etholakalayo</string>
+    <string name="rw_redeem_failed">Ayikwazanga ukushintshanisa. Zama futhi.</string>
 </resources>
